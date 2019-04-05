@@ -1,0 +1,41 @@
+.content{
+    border-radius: 1px;
+    background-color: lightgray;
+    width: 350px;
+    padding: 25px;
+   margin: auto;
+   }
+label{
+    text-decoration-style: solid;
+}
+.img{
+    border-style: ridge;
+    border-color: darkblue;
+	position: relative;
+	top: 1;
+	margin-bottom: 30px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+input[type=text]{
+    width: 100%;
+    border-style: ridge;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #f1f1f1;
+}
+input[type=text]:focus{
+    background-color: lightblue;
+    outline: none;
+}
+.submit1 { 
+    color: black;
+    display: inline-block;
+    width: 100%;
+    font-size: 25px;
+    margin: 2px 1px;
+    transition-duration: 0.3s;
+
+}
